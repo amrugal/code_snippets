@@ -32,3 +32,5 @@ pattern = re.compile(r'start', re.I)
 matches = pattern.search(sentence)
 
 print(matches)
+# we can use string slicing to use data directly. Script output will be <re.Match object; span=(55, 58), match='123'>
+# for example print(sentence[55:58]) will print out only match with span=(55, 58) coordinates, in this case it will be '123'
